@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Sanat</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="2xl:px-[10%] py-3 px-[5%]">
+      <nav class="flex items-center justify-between lg:justify-evenly">
+        <div class="lg:mr-auto">
+          <a href=""><img class="" src="./src/images/Sanat.png" alt="" /></a>
+        </div>
+
+        <div class="">
+          <div
+            class="flex bg-black w-14 h-12 cursor-pointer lg:hidden"
+            id="toggleDropdown"
+          >
+            <i class="fa-solid fa-bars text-white fa-2x mx-auto my-auto"></i>
+          </div>
+          <ul
+            class="py-5 hidden lg:visible lg:flex lg:static lg:justify-center lg:w-full lg:bg-white absolute bg-black animate-easeIn z-30 w-screen right-0 text-lg"
+            id="menuDropdown"
+          >
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="/" class="navbarStyle">Home</a>
+            </li>
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="" class="navbarStyle">Pages</a>
+            </li>
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="" class="navbarStyle">Portfolio</a>
+            </li>
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="" class="navbarStyle">Blog</a>
+            </li>
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="" class="navbarStyle">Blocks</a>
+            </li>
+            <li
+              class="navbarLiStyle"
+            >
+              <a href="" class="navbarStyle">Shop</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ml-auto hidden lg:block">
+          <button class="hover:bg-[#ffda00] hover:text-black duration-300 active:bg-[#ffda00] bg-black rounded-full px-8 py-4 text-white font-bold text-xl">+19 855 518 386</button>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <div>
+      <section
+        class=" bg-[#1c1d1e] flex flex-wrap lg:flex-nowrap 2xl:flex-nowrap 2xl:justify-center 2xl:items-center"
+      >
+        <div class="order-2 lg:order-1 2xl:order-1 px-5 lg:w-[50%] lg:pr-12 2xl:w-[50%] xl:pl-[7%] 2xl:pl-[17%]">
+          <h5 class="text-[#FFDA00] font-bold text-xl pt-32">We are</h5>
+          <h1
+            class="text-white font-bold text-[40px] py-3 w-[85%] leading-tight"
+          >
+            Inventing The Best Steels For A Better World
+          </h1>
+          <p class="text-white font-semibold text-lg py-4">
+            Dolores et ea rebum vero eos et accusam et justo duo dolores et ea
+            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+            ipsum dolor sit amet.
+          </p>
+          <button
+            class="smallPhone:mb-10 mb-24 mt-8 font-bold rounded-full bg-transparent text-white border-white border-[3.5px] px-5 py-2.5 hover:bg-white hover:text-black text-lg hover:duration-300"
+          >
+            Read More
+          </button>
+          <button
+            class="smallPhone:mb-10 smallPhone:ml-0 mb-8 ml-4 font-bold text-black bg-yellow-300 rounded-full border-[3.5px] border-yellow-300 px-5 py-2.5 hover:bg-transparent hover:text-white hover:duration-300 text-lg"
+          >
+            Contact Us
+          </button>
+        </div>
+
+        <div class="order-1 lg:w-[50%] lg:order-2 2xl:order-2 2xl:w-[50%]">
+          <img
+            src="./src/images/hero-section.jpg"
+            class="object-cover h-56 lg:h-[100%] 2xl:h-[70vh] 2xl:border-red-500 w-screen"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Brand Start -->
+    <div>
+      <section>
+        <div class="flex flex-wrap xl:px-[7%] 2xl:px-[17%]">
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/1.png" alt="" />
+          </div>
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/2.png" alt="" />
+          </div>
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/3.png" alt="" />
+          </div>
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/4.png" alt="" />
+          </div>
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/5.png" alt="" />
+          </div>
+          <div class="brandOuterStyle">
+            <img class="brandImgStyle" src="./src/images/6.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Brand End -->
+
+    <!-- About Us Start -->
+    <div class="bg-[#f4f4f4] px-5 py-16 xl:px-[7%] 2xl:px-[17%]">
+      <section>
+        <h5 class="font-bold text-xl text-[#747474]">About Us</h5>
+        <h1 class="text-[40px] text-[#1c1d1e] font-bold leading-tight my-4">
+          Becoming the Best Steelmaker with World-Leading Potential
+        </h1>
+
+        <!-- card start -->
+        <div class="lg:flex lg:gap-8">
+          <div class="my-8 bg-white">
+            <img src="./src/images/card-1.jpg" alt="" />
+            <h4 class="styleCardHeading">Automotive and mobility</h4>
+            <p class="styleCardParagraph">
+              Cras erosed nisl, imperdiet in nisl rhoncus, lobortis tempus
+              ligula. Duis elementum laoreet congue. In scelerisque metused
+              interdum eros dignissim nisl laoreet.
+            </p>
+            <div class="flex mx-7">
+              <i
+                slot="icon"
+                class="fa-solid fa-arrow-right fa-xl ml-auto my-10"
+              ></i>
+            </div>
+          </div>
+
+          <div class="my-8 bg-white">
+            <img class="w-[100%]" src="./src/images/card-2.jpg" alt="" />
+            <h4 class="styleCardHeading">Structural Steel Supplies</h4>
+            <p class="styleCardParagraph">
+              Cras erosed nisl, imperdiet in nisl rhoncus, lobortis tempus
+              ligula. Duis elementum laoreet congue. In scelerisque metused
+              interdum eros dignissim nisl laoreet.
+            </p>
+            <div class="flex mx-7">
+              <i
+                slot="icon"
+                class="fa-solid fa-arrow-right fa-xl ml-auto my-10"
+              ></i>
+            </div>
+          </div>
+
+          <div class="my-8 bg-white">
+            <img src="./src/images/card-3.jpg" alt="" />
+            <h4 class="styleCardHeading">The raw materials mining</h4>
+            <p class="styleCardParagraph">
+              Cras erosed nisl, imperdiet in nisl rhoncus, lobortis tempus
+              ligula. Duis elementum laoreet congue. In scelerisque metused
+              interdum eros dignissim nisl laoreet.
+            </p>
+            <div class="flex mx-7">
+              <i
+                slot="icon"
+                class="fa-solid fa-arrow-right fa-xl ml-auto my-10"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </section>
+    </div>
+    <!-- About Us End -->
+
+    <!-- Our Goals Start -->
+    <div class="">
+      <section class="flex flex-wrap lg:flex-nowrap 2xl:flex-nowrap">
+        <div class="order-2 bg-[#1c1d1e] px-5 py-28 lg:order-1 2xl:order-1 lg:w-[50%] 2xl:w-[50%] xl:pl-[7%] 2xl:pl-[17%]">
+          <h5 class="text-[#FFDA00] font-bold text-xl">Our Goals</h5>
+          <h2 class="text-white font-bold text-3xl py-8 w-[85%] leading-tight">
+            Our not-so-secret plan: Create a world without waste
+          </h2>
+          <p class="text-[#bebebe] text-base pr-10">
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua. At vero eos et accusam justo
+            duo dolores et ea rebum.
+          </p>
+          <button
+            class="mt-14 font-semibold text-black bg-[#ffda00] rounded-full border-[3.5px] border-yellow-300 px-10 py-3 hover:bg-transparent hover:text-white hover:duration-300 text-lg"
+          >
+            Learn More
+          </button>
+        </div>
+        
+        
+        <div class="flex order-1 relative lg:order-2 2xl:order-2 lg:w-[50%] 2xl:w-[50%] flex-wrap ">
+          <img
+            src="./src/images/goals-image.jpg"
+            class="object-cover h-80 w-screen lg:h-[100%]"
+            alt=""
+          />
+          <div
+            class="lg:flex lg:flex-wrap px-5 h-80 z-40 absolute inset-0 lg:h-[100%] items-center  bg-[#747474]/[.54]"
+          >
+            <h2 class="text-[55px] mt-10 text-[#ffda00] font-semibold text-center">
+              $443 Billion
+            </h2>
+            <h5 class="text-xl text-white my-5 w-full">
+                Creating 97 million tons of steel.
+            </h5>
+            <h5 class="text-xl text-white mb-10 lg:w-[100%]">
+              Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore
+            </h5>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Our Goals End -->
+
+    <!-- Advance Product Start -->
+    <div class="">
+      <section class="xl:px-[7%] 2xl:px-[17%] 2xl: bg-[#f4f4f4] px-5 pt-32 pb-20">
+        <div class="pb-16 text-center">
+          <h2 class="text-[32px] text-[#1c1d1e] font-bold leading-snug">
+            Advancing products, processes and solutions
+          </h2>
+          <h2 class="text-base text-[#747474] mt-5 leading-relaxed">
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua. At vero eos et accusam justo
+            duo dolores et ea rebum.
+          </h2>
+        </div>
+
+        <div class="">
+          <div class="lg:flex">
+            <div class="lg:w-[50%]">
+              <img class="lg:max-w-[100%] lg:min-h-[450px] object-cover" src="./src/images/product-advance.jpg" alt="" />
+            </div>
+
+            <div class="lg:w-[50%] tab relative md:flex">
+              <!-- Strategy Start -->
+              <button
+                class="max-h-[50px] border-b-2 border-r-2 tablinks flex cursor-pointer py-2 px-4 w-full border-solid border-gray-300 font-bold text-[#1c1d1e] active overflow-hidden"
+                onclick="openAdvanceFeature(event, 'strategy')"
+              >
+                Strategy
+              </button>
+              <div id="strategy" class="animate-tabAnimation strategy tabcontent mx-1 block md:absolute md:top-0 md:left-0 md:w-[100%] md:mt-14 md:overflow-hidden">
+                <h5
+                  class="text-[20px] text-[#1c1d1e] my-5 font-semibold leading-tight"
+                >
+                  Dolores et ea rebum vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata
+                  sanctus est Lorem ipsum dolor sit amet.
+                </h5>
+                <p class="text-base text-[#747474] my-5 leading-normal">
+                  Siam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. dolores et ea rebum vero eos
+                  et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                  amet. sed diam voluptua. At vero eos et accusam justo duo
+                  dolores et ea rebum. strategy
+                </p>
+              </div>
+              <!-- Strategy End -->
+
+              <!-- Organization Start -->
+              <button
+              class="max-h-[50px] border-b-2 border-r-2 tablinks flex cursor-pointer py-2 px-4  w-full border-solid border-gray-300 font-semibold text-[#747474]"
+              onclick="openAdvanceFeature(event, 'organization')"
+              >
+              Organization
+              </button>
+              <div id="organization" class="animate-tabAnimation organization tabcontent mx-1 md:absolute md:top-0 md:left-0 md:w-[100%] md:mt-14">
+                <h5
+                  class="text-[20px] text-[#1c1d1e] my-5 font-semibold leading-tight"
+                >
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsumg
+                </h5>
+                <p class="text-base text-[#747474] my-5 leading-normal">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur,
+                  from a Lorem Ipsum passage, and going through the cites of the
+                  word in classical literature, discovered the undoubtable
+                  source.
+                </p>
+              </div>
+              <!-- Organization End -->
+
+              <!-- Development Start -->
+              <button
+              class="max-h-[50px] border-b-2 border-r-2 tablinks flex cursor-pointer py-2 px-4 w-full border-solid border-gray-300 font-semibold text-[#747474]"
+              onclick="openAdvanceFeature(event, 'development')"
+              >
+              Development
+              </button>
+              <div id="development" class="animate-tabAnimation development tabcontent mx-1 md:absolute md:top-0 md:left-0 md:w-[100%] md:mt-14">
+                <h5
+                  class="text-[20px] text-[#1c1d1e] my-5 font-semibold leading-tight"
+                >
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour
+                </h5>
+                <p class="text-base text-[#747474] my-5 leading-normal">
+                  Siam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. dolores et ea rebum vero eos
+                  et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                  amet. sed diam voluptua. At vero eos et accusam justo duo
+                  dolores et ea rebum. Development
+                </p>
+              </div>
+              <!-- Development End -->
+
+              <!-- Deliver Start -->
+              <button
+                class="max-h-[50px] border-b-2 border-r-2 tablinks flex cursor-pointer py-2 px-4 w-full border-solid border-gray-300 font-semibold text-[#747474] overflow-hidden"
+                onclick="openAdvanceFeature(event, 'deliver')"
+              >
+                Deliver
+              </button>
+              <div id="deliver" class="animate-tabAnimation deliver tabcontent mx-1 md:absolute md:top-0 md:left-0 md:w-[100%] md:mt-14 md:overflow-hidden">
+                <h5
+                  class="text-[20px] text-[#1c1d1e] my-5 font-semibold leading-tight"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry’s
+                  standard dummy text ever since the 1500s,
+                </h5>
+                <p class="text-base text-[#747474] my-5 leading-normal">
+                  discovered the undoubtable source. Lorem Ipsum comes from
+                  sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et
+                  Malorum” (The Extremes of Good and Evil) by Cicero, written in
+                  45 BC. This book is a treatise on the theory of ethics, very
+                  popular during the Renaissance. The first line of Lorem Ipsum,
+                </p>
+              </div>
+              <!-- Deliver End -->
+            </div>
+          </div>
+
+          
+
+          <div class="mt-[1px] md:mt-[300px] lg:flex lg:justify-center lg:items-center lg:gap-10 lg:mt-[50px] xl:mt-[100px]">
+            <div class="mt-20 mb-10 lg:order-2 lg:w-[50%]">
+              <img class="lg:min-w-[100%] lg:h-[500px] object-cover" src="./src/images/product-advance-2.jpg" alt="" />
+            </div>
+
+            <div class="lg:order-1 lg:w-[50%]">
+              <p class="text-[18px] font-bold text-[#747474] mb-5">
+                Dolores et ea rebum vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                Lorem ipsum dolor sit amet.
+              </p>
+              <p class="text-[16px] font-semibold text-[#747474]">
+                Dolores et ea rebum vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                Lorem ipsum dolor sit amet. Vero eos et accusam justo duo
+                dolores.
+              </p>
+
+              <div class="lg:flex">
+                <div class="bg-white px-8 mt-10 py-10 lg:flex-[2_1_100%]">
+                  <i class="fa-solid fa-chart-bar fa-3x text-gray-400"></i>
+                  <div class="mt-5">
+                    <span class="text-2xl text-[#1c1d1e] font-semibold"
+                      >Management</span
+                    >
+                    <p class="text-base text-[#747474] mt-5">
+                      Dolores et ea rebum vero eos et accusam et justo duo
+                      dolores et ea rebum stet clita kasd.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="lg:mx-8">
+                  <div class="bg-white px-8 mt-10 py-10">
+                    <i
+                      class="fa-solid fa-charging-station fa-3x text-gray-400"
+                    ></i>
+                    <div class="mt-5">
+                      <span class="text-2xl text-[#1c1d1e] font-semibold"
+                        >Digital Economy</span
+                      >
+                      <p class="text-base text-[#747474] mt-5">
+                        Dolores et ea rebum vero eos et accusam et justo duo
+                        dolores et ea rebum stet clita kasd
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Advance Product End -->
+
+    <!-- Case Studies Start -->
+    <div class="">
+      <section class="px-5 2xl:px-[17%] pt-24 pb-16 xl:px-[7%]">
+        <h1 class="text-[40px] text-[#1c1d1e] font-bold">Case Studies</h1>
+        <p class="text-base text-[#747474] mt-5 mb-10">
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam justo
+          duo dolores et ea rebum.
+        </p>
+
+        <!-- Card Start -->
+        <div class="lg:flex lg:gap-9">
+          <div class="my-8 bg-gray-100">
+            <img src="./src/images/case-studies-1.jpg" alt="" />
+            <h5 class="styleCardHeading text-[#a8a8a8] text-[20px]">
+              Constraction
+            </h5>
+            <p class="styleCardParagraph text-[24px] font-bold text-[#1c1d1e]">
+              Noor ul Jani Steel and Sanat leaders discuss how they joined
+              forces to make the world's first learning steelworks using AI
+              Artificial Intelligence
+            </p>
+            <div class="flex mx-7">
+              <i
+                class="fa-solid fa-arrow-right fa-xl ml-auto mb-12 mt-16 2xl:mt-12"
+              ></i>
+            </div>
+          </div>
+
+          <div class="my-8 bg-gray-100">
+            <img src="./src/images/case-studies-1.jpg" alt="" />
+            <h5 class="styleCardHeading text-[#a8a8a8] text-[20px]">
+              Constraction
+            </h5>
+            <p class="styleCardParagraph text-[24px] font-bold text-[#1c1d1e]">
+              Installing 500+ industrial processing plant for helping owners and
+              executives of construction companies enhance performance
+            </p>
+            <div class="flex mx-7">
+              <i
+                class="fa-solid fa-arrow-right fa-xl ml-auto mb-12 mt-16 2xl:mt-12"
+              ></i>
+            </div>
+          </div>
+
+          <div class="my-8 bg-gray-100">
+            <img src="./src/images/case-studies-1.jpg" alt="" />
+            <h5 class="styleCardHeading text-[#a8a8a8] text-[20px]">
+              Research
+            </h5>
+            <p class="styleCardParagraph text-[24px] font-bold text-[#1c1d1e]">
+              Partnering with the world's pioneering organizations to discuss
+              the longer term of steel and its role during a changing world we
+              providing AI
+            </p>
+            <div class="flex mx-7">
+              <i
+                class="fa-solid fa-arrow-right fa-xl ml-auto mb-12 mt-16 2xl:mt-12"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- Card End -->
+        <button
+          class="text-[18px] bg-[#1c1d1e] text-white block mx-auto rounded-full px-9 py-4 font-bold hover:bg-yellow-300 hover:text-[#1c1d1e] duration-200 mt-16 mb-7"
+        >
+          View All Projects
+        </button>
+      </section>
+    </div>
+    <!-- Case Studies End -->
+
+    <!-- Testimonials Start -->
+    <div>
+      <section
+        class="py-28 xl:px-[7%] 2xl:px-[17%] px-5 bg-[#1c1d1e] lg:flex lg:items-center lg:justify-center lg:py-28
+        "
+      >
+        <div class="lg:w-[60%]">
+          <h1 class="text-white text-[40px] font-bold w-[85%] leading-tight">
+            Valuable words from our customers
+          </h1>
+          <p class="text-[16px] text-[#bebebe] my-10 lg:pr-11">
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magn.
+          </p>
+          <button
+            class="text-black rounded-full px-10 py-4 mb-10 text-[18px] bg-[#ffda00] font-semibold hover:bg-transparent hover:border-[#ffda00] hover:border-[4px] hover:border-solid border-[#ffda00] border-[4px] hover:text-white duration-300"
+          >
+            Learn More
+          </button>
+        </div>
+
+        <!-- Card Testimonial start here -->
+        <div class="lg:w-[100%]">
+          <div
+            class="bg-white px-10 py-10 lg:pb-10 lg:pt-3 lg:flex lg:justify-center lg:items-center lg:mr-28 lg:ml-14"
+          >
+            <div class="order-2 lg:w-[70%]">
+              <img
+                src="./src/images/ava-1.jpg"
+                alt=""
+                class="rounded-full lg:w-[70px] lg:ml-auto"
+              />
+            </div>
+            <div class="order-1">
+              <h4 class="my-5 text-[#747474] leading-relaxed lg:pr-10">
+                Cras erosed nisl, imperdiet in nisl rhoncus, lobortis igula.
+                Duis elementum laoreet congue. In scelerisque metused interdum
+                eros dignissim laoreet.
+              </h4>
+              <p class="text-[#747474] font-bold">
+                Michael Wilson - CEO of Tozee
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white px-10 py-10 lg:pb-10 lg:pt-3 lg:flex lg:justify-center lg:items-center my-10 lg:ml-44"
+          >
+            <div class="order-2 lg:w-[70%]">
+              <img src="./src/images/ava-2.jpg" alt="" class="rounded-full" />
+            </div>
+            <div class="order-1">
+              <h4 class="my-5 text-[#747474] leading-relaxed lg:pr-10">
+                Cras erosed nisl, imperdiet in nisl rhoncus, lobortis igula.
+                Duis elementum laoreet congue. In scelerisque metused interdum
+                eros dignissim laoreet.
+              </h4>
+              <p class="text-[#747474] font-bold">
+                Patricia Bogle - CEO of Manan
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white px-10 py-10 lg:pb-10 lg:pt-3 lg:flex lg:justify-center lg:items-center lg:mr-28 lg:ml-14"
+          >
+            <div class="order-2 lg:w-[70%]">
+              <img
+                src="./src/images/ava-3.jpg"
+                alt=""
+                class="rounded-full lg:w-[70px] lg:ml-auto"
+              />
+            </div>
+            <div class="order-1">
+              <h4 class="my-5 text-[#747474] leading-relaxed lg:pr-10">
+                Cras erosed nisl, imperdiet in nisl rhoncus, lobortis igula.
+                Duis elementum laoreet congue. In scelerisque metused interdum
+                eros dignissim laoreet.
+              </h4>
+              <p class="text-[#747474] font-bold">Joseph Hyde - CEO of Moiz</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Testimonial end here -->
+      </section>
+    </div>
+    <!-- Testimonials End -->
+
+    <!-- Now For Tomorrow Start -->
+    <div class=" bg-[#f4f4f4]">
+      <section class="md:px-5 md:pb-36 lg:flex xl:px-[7%] 2xl:px-[17%] items-center justify-center lg:px-5 pt-32 pb-20">
+        <div>
+          <div class="md:flex md:flex-wrap md:gap-10 lg:flex lg:flex-wrap lg:gap-10 lg:mr-14 relative">
+            <div
+              class="py-14 px-5 bg-[#1c1d1e] md:flex-[1_1_45%] md:px-7 lg:pt-10 lg:py-0 lg:px-8 lg:flex-[1_1_33.3%] 2xl:flex-[1_1_40%]"
+            >
+              <h2 class="text-[#ffda00] text-[32px] font-bold">532 Offices</h2>
+              <h5 class="leading-relaxed text-white text-[20px] lg:py-7 py-7">
+                Across 56 and 26k global workforce
+              </h5>
+              <p class="leading-relaxed text-white font-normal">
+                Dolores et ea rebum vero eos et accusam et justo duo dolores at
+                ea rebum. labore vero dolore magna aliquyam erat
+              </p>
+            </div>
+
+            <div
+              class="my-10 px-5 py-14 md:-mb-10 md:my-10 lg:my-10 bg-white md:flex-[1_1_45%] md:px-7 lg:pt-10 lg:pb-40 lg:px-8 lg:flex-[1_1_33.3%] 2xl:flex-[1_1_40%] lg:-mb-10 lg:mt-10"
+            >
+              <h2 class="text-black text-[32px] font-bold">
+                42 Billion Per Year
+              </h2>
+              <h5
+                class="leading-relaxed text-[#1c1d1e] text-[20px] lg:py-7 py-7"
+              >
+                Takimata sanctus eirmod tempor invidunt
+              </h5>
+              <p class="leading-relaxed text-[#747474] font-normal">
+                Dolores et ea rebum vero eos et accusam et justo duo dolores at
+                ea rebum. labore vero dolore magna aliquyam erat
+              </p>
+            </div>
+
+            <div
+              class="bg-white md:flex-[1_1_40%] md:px-7 lg:pt-10 lg:pb-40 lg:px-5 lg:flex-[1_1_33.3%] 2xl:flex-[1_1_40%] px-5 py-14"
+            >
+                <h2 class="text-[1c1d1e] text-[32px] font-bold">
+                  29 Trillion Pounds
+                </h2>
+                <h5 class="leading-relaxed text-black text-[20px] lg:py-7 py-7">
+                  Nonumy eirmod tempor invidunt veroe labore
+                </h5>
+                <p class="leading-relaxed text-[#747474] font-normal">
+                  Dolores et ea rebum vero eos et accusam et justo duo dolores
+                  at ea rebum. labore vero dolore magna aliquyam erat
+                </p>
+            </div>
+
+            <div
+              class="my-10 px-5 py-14 md:-mb-10 md:my-10 lg:my-10 lg:-mb-10 lg:mt-10 bg-[#ffda00] md:flex-[1_1_40%] md:px-7 lg:pt-10 lg:pb-40 lg:px-5 lg:flex-[1_1_33.3%] 2xl:flex-[1_1_40%]"
+            >
+              <h2 class="text-black] text-[32px] font-bold">96 % Industrial</h2>
+              <h5
+                class="leading-relaxed text-[20px] lg:py-7 text-[#1c1d1e] py-7"
+              >
+                Across 56 and 26k global workforce
+              </h5>
+              <p class="leading-relaxed font-normal text-[#747474]">
+                Dolores et ea rebum vero eos et accusam et justo duo dolores at
+                ea rebum. labore vero dolore magna aliquyam erat
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="px-5 md:mt-24">
+          <h1 class="text-[40px] text-[#1c1d1e] font-bold">
+            Now, for tomorrow
+          </h1>
+          <p class="text-[18px] text-[#747474] font-semibold my-11">
+            Dolores et ea rebum vero eos et accusam et justo duo dolores et ea
+            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+            ipsum dolor sit amet.
+          </p>
+          <p class="text-base text-[#747474] leading-relaxed">
+            Siam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat, sed diam voluptua. dolores et ea rebum vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet. sed diam
+            voluptua. At vero eos et accusam justo duo dolores et ea rebum.
+          </p>
+          <button
+            class="text-white bg-[#1c1d1e] font-bold px-10 py-4 my-6 rounded-full hover:bg-[#ffda00] hover:text-[#1c1d1e] duration-300"
+          >
+            Learn More
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- Now For Tomorrow End -->
+
+    <!-- Our Team Members Start -->
+    <div class="">
+      <section class="xl:px-[7%] 2xl:px-[17%] px-5 bg-[#1c1d1e] xl:flex xl:gap-10 xl:pt-28 xl:pb-72 pt-24 pb-36">
+        <div class="sm:w-[100%] xl:w-[50%]">
+          <h1 class="text-white text-[40px] font-bold ">Our Team</h1>
+          <h1 class="text-white text-[40px] font-bold">Members</h1>
+          <p class="text-[#bebebe] mt-5 mb-16 leading-relaxed 2xl:pr-24">
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magn.
+          </p>
+
+          <div class="bg-white sm:w-[100%] xl:w-[52%] xl:ml-auto">
+            <img class="w-[100%]" src="./src/images/team-1.jpg" alt="" />
+            <div class="px-7 py-8">
+              <h5 class="text-[#1c1d1e] text-[20px] font-semibold">
+                Daniel Nichol
+              </h5>
+              <p class="text-[#747474] text-base py-3">Managing Partner</p>
+              <div class="flex gap-5 mt-3">
+                <div class=""><a href=""><i class="fa-brands fa-facebook fa-xl"></i></a></div>
+                <div class=""><a href=""><i class="fa-brands fa-twitter fa-xl"></i></a></div>
+                <div class=""><a href=""><i class="fa-brands fa-youtube fa-xl"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm:w-[100%] xl:w-[50%]">
+          <div class="sm:flex sm:flex-wrap sm:gap-10 xl:flex xl:flex-wrap xl:gap-10">
+
+            <div class="bg-white sm:flex-[1_1_40%] xl:flex-[1_1_45%] xl:-mb-48 xl:mt-48 sm:my-5 my-7">
+              <img src="./src/images/team-2.jpg" alt="" />
+              <div class="px-7 py-8">
+                <h5 class="text-[#1c1d1e] text-[20px] font-semibold">
+                  Jonathan White
+                </h5>
+                <p class="text-[#747474] text-base py-3">Film Director</p>
+                <div class="flex mt-3">
+                  <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter fa-xl mx-5"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white sm:flex-[1_1_40%] xl:flex-[1_1_45%] sm:my-5 xl:my-0">
+              <img src="./src/images/team-3.jpg" alt="" />
+              <div class="px-7 py-8">
+                <h5 class="text-[#1c1d1e] text-[20px] font-semibold">
+                  Gerry Heller
+                </h5>
+                <p class="text-[#747474] text-base py-3">Managing Director</p>
+                <div class="flex mt-3">
+                  <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter fa-xl mx-5"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white sm:flex-[1_1_40%] xl:flex-[1_1_45%] xl:-mb-48 xl:mt-48 xl:my-7 sm:my-0 my-7">
+              <img src="./src/images/team-4.jpg" alt="" />
+              <div class="px-7 py-8">
+                <h5 class="text-[#1c1d1e] text-[20px] font-semibold">
+                  Patricia Bogle
+                </h5>
+                <p class="text-[#747474] text-base py-3">Chief Operating Officer</p>
+                <div class="flex mt-3">
+                  <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter fa-xl mx-5"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white sm:flex-[1_1_40%] xl:flex-[1_1_45%]">
+              <img src="./src/images/team-5.jpg" alt="" />
+              <div class="px-7 py-8">
+                <h5 class="text-[#1c1d1e] text-[20px] font-semibold">
+                  Joseph Hyde
+                </h5>
+                <p class="text-[#747474] text-base py-3">Tax Partner</p>
+                <div class="flex mt-3">
+                  <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter fa-xl mx-5"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Our Team Members End -->
+
+    <!-- Recent News Start -->
+    <div class="">
+      <section class="xl:px-[7%] 2xl:px-[17%] 2xl: px-5 pt-24 pb-16 bg-gray-100">
+        <h1 class="text-[40px] text-[#1c1d1e] font-bold">Recent News</h1>
+
+        <!-- Card Start -->
+        <div class="lg:flex lg:gap-9">
+          <div class="my-8 bg-white">
+            <img src="./src/images/recent-news-1.jpg" alt="" />
+            <h4 class="styleCardHeading text-[#1c1d1e] text-[24px]">
+              Automatic PU Automobile Acoustic Cushion Foaming Machine Hpm50/20
+            </h4>
+            <div class="dateStyle">25 September, 2020</div>
+            <p class="styleCardParagraph  font-normal pb-10">
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+            </p>
+  
+          </div>
+
+          <div class="my-8 bg-white">
+            <img src="./src/images/recent-news-2.jpg" alt="" />
+            <h4 class="styleCardHeading text-[#1c1d1e] text-[24px]">
+              New tunnel stretching all the way from Long Island to Manhattan
+            </h4>
+            <div class="dateStyle">September 25, 2020</div>
+            <p class="styleCardParagraph  font-normal pb-10">
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+            </p>
+  
+          </div>
+
+          <div class="my-8 bg-white">
+            <img src="./src/images/recent-news-3.jpg" alt="" />
+            <h4 class="styleCardHeading text-[#1c1d1e] text-[24px]">
+              We supply the steels for onshore and offshore platforms
+            </h4>
+            <div class="dateStyle">September 25, 2020</div>
+            <p class="styleCardParagraph  font-normal pb-10">
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+            </p>
+  
+          </div>
+        </div>
+        <!-- Card End -->
+        <button
+          class="text-[18px] bg-[#1c1d1e] text-white block mx-auto rounded-full px-9 py-4 font-bold hover:bg-yellow-300 hover:text-[#1c1d1e] duration-200 mt-16 mb-7"
+        >
+          View All News
+        </button>
+      </section>
+    </div>
+    <!-- Recent News End -->
+
+    <!-- footer Start -->
+    <div>
+      <footer class="bg-[#1c1d1e] px-5 xl:px-[7%] 2xl:px-[17%]">
+        <div>
+          <h1 class="text-white font-extrabold text-[40px] pt-10 lg:py-16">SANAT</h1>
+        </div>
+
+
+        <div>
+          <div class="lg:flex">
+              <form action="" class="mt-16 lg:mt-0 2xl:flex lg:min-w-[300px]">
+                <div>
+                  <input class="text-lg py-3 w-full placeholder-gray-400 px-5 placeholdet" type="email" placeholder="Email" size=""/>
+                </div>
+                <div>
+                  <button class="hover:bg-gray-700 hover:text-white duration-300 lg:mt-5 2xl:mt-0 mt-6 block bg-[#ffda00] text-[#1c1d1e] font-bold w-full 2xl:px-5 py-3 text-lg">Subscribe</button> 
+                </div>
+              </form>
+
+            <div class="flex lg:w-full flex-wrap lg:flex-nowrap lg:ml-16 lg:gap-7">
+              <div class="text-white flex-[1_1_50%] lg:flex-[1_1_100%] lg:mt-0 mt-14 text-base">
+                <ul class="">
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">About Us</a></li>
+                  <li class="my-5 "><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Locations</a></li>
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Case Study</a></li>
+                  <li class="my-5"><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <div class="text-white flex-[1_1_50%] lg:flex-[1_1_100%] lg:mt-0  mt-14">
+                <ul>
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Manufacturing</a></li>
+                  <li class="my-5"><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Certificates</a></li>
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Platform</a></li>
+                  <li class="my-5"><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">FAQ's</a></li>
+                </ul>
+              </div>
+
+              <div class="text-white flex-[1_1_50%] lg:flex-[1_1_100%] lg:mt-0 mt-14">
+                <ul >
+                  <li class=""><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Careers</a></li>
+                  <li class="my-5 "><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">For Media</a></li>
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Investor Relations</a></li>
+                </ul>
+              </div>
+
+              <div class="text-white flex-[1_1_50%] lg:flex-[1_1_100%] lg:mt-0 mt-14">
+                <ul class="">
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Client Portal</a></li>
+                  <li class="my-5"><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Legal & Privacy</a></li>
+                  <li><a href="" class="hover:border-gray-300 border-b-2 border-transparent duration-300 pb-3">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="text-base text-[#a8a8a8] pt-24 pb-12">&copy; 2023 All Rights Reserved</p>
+        </div>
+
+        <div class="text-white flex gap-5 pb-10">
+          <div class="rounded-full bg-transparent border-[2px] px-2 py-1 cursor-pointer">
+            <a href="/"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <div class="rounded-full bg-transparent border-[2px] px-2 py-1 cursor-pointer">
+            <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="rounded-full bg-transparent border-[2px] px-2 py-1 cursor-pointer">
+            <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="rounded-full bg-transparent border-[2px] px-2 py-1 cursor-pointer">
+            <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- footer End -->
+
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/card.js"></script>
+  </body>
+</html>
